@@ -16,7 +16,7 @@
     text-decoration: none;
     border: none;
     outline: none;
-    text-transform: capitalize;
+   /* text-transform: capitalize;*/
     transition: all .2s linear;
 }
 
@@ -124,6 +124,17 @@ header .logo{
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
+}
+
+.hf{
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+.hf span{
+    color: #FFD700;
 }
 
 
@@ -347,9 +358,9 @@ header.active {
 .card:nth-child(4):hover p{
     color: white;
 }
-/*Table Tennies*/
+/*Zumba / Aerobics*/
 .card:nth-child(5):hover{
-    background: linear-gradient(45deg, rgba(255, 223, 0, 0.7) 0%, rgba(255, 223, 0, 0.7) 100%), url('images/TableTenniesStock.jpg');
+    background: linear-gradient(45deg, rgba(255, 223, 0, 0.7) 0%, rgba(255, 223, 0, 0.7) 100%), url('images/zumba.jpg');
     background-size: cover;
     color: white;
 }
@@ -393,6 +404,10 @@ header.active {
 .aboutus {
     padding: 80px 0;
     margin: 20px 0; /* Added margin property */
+}
+.hilight{
+    color: #FFD700;
+    font-weight: bold;
 }
 
 .container {
@@ -561,6 +576,11 @@ header.active {
     padding-top: 15px;
 }
 
+.slide p {
+    font-size: 12px;
+    font-family: 'poppins',sans-serif
+}
+
 @media screen and (min-width: 768px) {
     .rcontainer {
         flex-direction: row;
@@ -594,6 +614,7 @@ header.active {
     flex-wrap: wrap;
     margin-top: 10%;
     padding-bottom: 40%;
+    margin-bottom: 15%;
 }
 
 .contact-in{
@@ -603,7 +624,7 @@ header.active {
 .contact-in:nth-child(1)
 {
     flex: 30%;
-    background: url(images/HF\ EntryB&W.jpeg);
+    background: url(images/HF\ Entry\ B&W.jpeg);
     color: #FFD700;
 }
 .contact-in:nth-child(2)
@@ -716,30 +737,24 @@ header.active {
 
 /*------------------------------  Media questies -----------------------------------*/
 
-@media only screen and (max-width:480px)
-{
-    .contact-in:nth-child(1) {
-        flex: 50%;
+@media only screen and (max-width: 768px) {
+    .content-wrap {
+      width: 90%; /* Adjust the width as needed */
+      margin-top: 5%;
+      padding-bottom: 20%;
     }
-    .contact-in:nth-child(2){
-    flex: 50%;
-}
-.contact-in:nth-child(3){
-    flex: 100%;
-}
-}
-@media only screen and (max-width:700px) /*360px*/
-{
-    .contact-in:nth-child(1) {
-        flex: 50%;
+  
+    .contact-in {
+      flex: 100%;
     }
-    .contact-in:nth-child(2){
-    flex: 50%;
-}
-.contact-in:nth-child(3){
-    flex: 100%;
-}
-}
+  
+    .contact-in:nth-child(1),
+    .contact-in:nth-child(2),
+    .contact-in:nth-child(3) {
+      flex: 100%;
+    }
+  }
+
 /*------------------------------  Media questies End -----------------------------------*/
 
 /*---------------------------------- Contact us End---------------------------------------------*/
@@ -811,6 +826,9 @@ ul li a{
     text-decoration: none;
     color: #fff;
 }
+ul li a:hover{
+    color: #FFD700;
+}
 hr {
     width: 90%;
     border: 0;
@@ -823,6 +841,9 @@ hr {
 #myname{
     color: #fff;
     border-bottom: 1px solid #ccc;
+}
+#myname:hover{
+    color: #FFD700;
 }
 
 .socialicon a i.fa-brands {
