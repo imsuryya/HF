@@ -306,77 +306,103 @@ header.active {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: gold;
+    /*background: gold;*/
     margin: 10px 4px;
     box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
 }
 
 .card h2{
     margin-bottom:12px;
-    font-weight: 400;
+    font-weight: bold;
     text-align: center;
+    color: #fff;
 }
 .card p{
-    color: #000;
+    color: #fff;
+    font-weight: bold;
     text-align: center;
 }
 /*Gym*/
-.card:nth-child(1):hover {
+.card:nth-child(1) {
     background: linear-gradient(45deg, rgba(255, 223, 0, 0.7) 0%, rgba(255, 223, 0, 0.7) 100%), url('images/stockGym.jpg');
+    background-size: cover;
+    }
+.card:nth-child(1):hover {
+    background: gold;
     background-size: cover;
 }
 .card:nth-child(1):hover h2,
 .card:nth-child(1):hover p{
-    color: white;
+    color: #000;
 }
 /*Dance*/
-.card:nth-child(2):hover{
+.card:nth-child(2) {
     background: linear-gradient(45deg, rgba(255, 223, 0, 0.7) 0%, rgba(255, 223, 0, 0.7) 100%), url('images/DanceStock.jpg');
+    background-size: cover;
+    }
+.card:nth-child(2):hover{
+    background: gold;
     background-size: cover;
     color: white;
 }
 .card:nth-child(2):hover h2,
 .card:nth-child(2):hover p{
-    color: white;
+    color: #000;
 }
 /*Batminton*/
-.card:nth-child(3):hover{
+.card:nth-child(3) {
     background: linear-gradient(45deg, rgba(255, 223, 0, 0.7) 0%, rgba(255, 223, 0, 0.7) 100%), url('images/BadmintonStock.jpg');
+    background-size: cover;
+    }
+.card:nth-child(3):hover{
+    background: gold;
     background-size: cover;
     color: white;
 }
 .card:nth-child(3):hover h2,
 .card:nth-child(3):hover p{
-    color: white;
+    color: #000;
 }
 /*Boxing*/
-.card:nth-child(4):hover{
+.card:nth-child(4) {
     background: linear-gradient(45deg, rgba(255, 223, 0, 0.7) 0%, rgba(255, 223, 0, 0.7) 100%), url('images/StockBoxing.jpg');
+    background-size: cover;
+    }
+.card:nth-child(4):hover{
+    background: gold;
     background-size: cover;
 }
 .card:nth-child(4):hover h2,
 .card:nth-child(4):hover p{
-    color: white;
+    color: #000;
 }
 /*Zumba / Aerobics*/
-.card:nth-child(5):hover{
+.card:nth-child(5) {
     background: linear-gradient(45deg, rgba(255, 223, 0, 0.7) 0%, rgba(255, 223, 0, 0.7) 100%), url('images/zumba.jpg');
+    background-size: cover;
+    }
+.card:nth-child(5):hover{
+    background: gold;
     background-size: cover;
     color: white;
 }
 .card:nth-child(5):hover h2,
 .card:nth-child(5):hover p{
-    color: white;
+    color: #000;
 }
 /*Yoga*/
-.card:nth-child(6):hover {
+.card:nth-child(6) {
     background: linear-gradient(45deg, rgba(255, 223, 0, 0.7) 0%, rgba(255, 223, 0, 0.7) 100%), url('images/YogaStock.jpg');
+    background-size: cover;
+    }
+.card:nth-child(6):hover {
+    background: gold;
     background-size: cover;
     color: white;
 }
 .card:nth-child(6):hover h2,
 .card:nth-child(6):hover p{
-    color: white;
+    color: #000;
 }
 
 @media(max-width:991px){
